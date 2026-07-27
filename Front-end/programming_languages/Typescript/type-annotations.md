@@ -54,7 +54,7 @@ viewer: "read-only"
 } /*all key name types are strings and their values are strings.
 It allows to add or remove properties more freely */
 ```
-OR use and index signature:
+OR use an index signature:
 ```ts
 //const obj: {[key: string]: string} = {}
 
