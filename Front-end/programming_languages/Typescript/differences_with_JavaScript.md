@@ -7,14 +7,14 @@ It is a *static* programming language, which needs and accepts only a particular
 Typescript introduces *compiler errors* for when a different data type is passed on a variable at run time.
 
 Javascript: 
-```
+```js
 const getRandomValue = (array) => {
   return array[Math.floor(Math.random() * array.length)];
 } //results undefined if a number is passed in the function instead of an array but it runs
 ```
 
 Typescript:
-```
+```ts
 const getRandomValue = (array: string[]) => {
   return array[Math.floor(Math.random() * array.length)];
 } //returns compiler error if passing in the function something else than an array of strings
