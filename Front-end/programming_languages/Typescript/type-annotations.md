@@ -12,3 +12,16 @@ If type annotation is simple, Typescript can infer it by seeing the syntax of th
 ```ts
 let firstName = "Angie"
 ```
+Undefined and null are special cases explained with functions, further ahead.
+
+## For Arrays and Objects
+```ts
+const programmingLanguages:string[] = ["Java", "C++", "Python"];
+||
+const programmingLanguages:Array<string> = ["Java", "C++", "Python"];
+//These two syntaxes are interchangeable
+*Typescript can still infer that is an array of strings but it is best practice to still add it in case we forget to add a number to the array later on.
+This way we get a compiler error if we do so*
+
+```
+
