@@ -55,7 +55,7 @@ backpack.add(23);
 ```
 
 ## Structural Type System
-Typescripts focuses here at the shape that the values have, so no need to be explicit when assigning a variable to that type:
+TypeScript focuses here at the shape that the values have, so no need to be explicit when assigning a variable to that type:
 ```ts
 interface Point {
   x: number;
@@ -71,4 +71,23 @@ const point = { x: 12, y: 26 };
 logPoint(point);
 ```
 The code above passes because the constant variable *point* has the same *shape* as the interface *Point*.
-Typescripts infers this for us using this system of checking shape
+TypeScript infers this for us using this system of checking its shape
+
+*Shape-matching* only requires a subset of the object's fields to match. (it can have more properties as long as the required pattern matches.
+```ts
+const point3 = { x: 12, y: 26, z: 89 };
+logPoint(point3); // logs "12, 26"
+```
+With classes:
+```ts
+class VirtualPoint {
+  x: number;
+  y: number;
+  constructor(x: number, y: number) {
+    this.x = x;
+    this.y = y;
+  }
+}
+const newVPoint = new VirtualPoint(13, 56);
+logPoint(newVPoint); // logs "13, 56"
+```
