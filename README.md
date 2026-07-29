@@ -1,6 +1,6 @@
 # Study-Notes
 
-This repository is aimed at documenting in one place self-study directed at furthering my skills as a full-stack software developer.
+This repository is aimed at documenting my self-directed study, while furthering my skills as a full-stack software developer.
 
 This is also an ongoing endeavour to perfect my note-taking abilities, working on clarity, organisation, and concisiveness, whilst improving memory retention. 
 My target audience is other junior full-stack software developers looking to understand new technical concepts and enter the tech world confidently.
