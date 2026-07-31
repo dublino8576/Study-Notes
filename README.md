@@ -1,4 +1,4 @@
-# Study-Notes
+# Study Notes
 
 This repository is aimed at documenting my self-directed study, while furthering my skills as a full-stack software developer.
 
