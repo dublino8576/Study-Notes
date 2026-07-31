@@ -13,6 +13,18 @@ My target audience is other junior full-stack software developers looking to und
 - Record common mistakes and how to avoid them
 - Gain broad knowledge of a popular array of technical tools for future study/projects
 
+## How the Notes Are Structured
+
+Each topic aims to answer five questions:
+
+1. What is it?
+2. Why is it used?
+3. How does it work?
+4. A practical example
+5. Common mistakes/misconceptions
+6. Key takeaways
+
+
 ## Topics
 - Cloud & Dev Ops
 - Front-end
